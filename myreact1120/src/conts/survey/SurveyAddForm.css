@@ -1,0 +1,46 @@
+ #container2 {
+    width: 450px;
+    margin: auto;
+  }
+  
+  table {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    background-color: #ece7e4;
+  }
+  
+  tbody img {
+    width: 100px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+    background: #757473;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    margin: 0 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+  
+  tfoot th {
+    text-align: center;
+  }
